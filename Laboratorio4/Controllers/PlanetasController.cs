@@ -20,7 +20,7 @@ namespace Laboratorio4.Controllers
 
         public ActionResult crearPlaneta()
         {
-            return View();
+            return View("crearPlaneta");
         }
 
         [HttpPost]
